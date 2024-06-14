@@ -102,12 +102,6 @@ void draw_grid(void) {
       }
     }
   }
-
-  // for (int y = 0; y < window_height; y++) {
-  //   for (int x = 0; x < window_width; x += 10) {
-  //     color_buffer[(window_width * y) + x] = 0xFFFF0000;
-  //   }
-  // }
 }
 
 void render(void) {
