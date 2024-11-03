@@ -4,6 +4,9 @@
 #include <SDL2/SDL_video.h>
 #include <stdbool.h>
 
+#define FPS 30
+#define FRAME_TARGET_TIME (1000 / 30)
+
 extern SDL_Window *window;
 extern SDL_Renderer *renderer;
 extern uint32_t *color_buffer;
